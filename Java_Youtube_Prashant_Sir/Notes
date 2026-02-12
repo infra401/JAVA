@@ -1,1 +1,8 @@
+Install JDK from google
+search: JDK Install 
+select for windows
+
+cmd:
+> javac -version
+
 
