@@ -41,7 +41,51 @@ History of Java
 **********************************************************************************************************************************************
 How Java Changed the Internet?
 - Portability with Write Once Run Anywhere
+- Security because
+ 
+**********************************************************************************************************************************************
+Java Buzzwords:
 
-37:00
+Robust
+Java is robust due to its strong memory management, exception handling, and type-checking
+mechanisms which help in preventing system crashes and ensuring readble performance.
 
+Multithreading
+Multithreading in programming is the ability of a CPU to execute multiple threads concurrently, allowing for
+more efficiency, processing and task management.  
+
+
+Architecture Neutral
+Java is architecturally neutral because its compiled code (bytecode) can run
+on any device with a Java Virtual Machine (JVM), regardless of the underlying
+hardware architecture.
+
+Interpreted and High Performance
+Java combines high performance with interpretability, as its bytecode
+is interptreted by the Java Virtual Machine (JVM), which employs Just-In-Time (JIT)
+compilation for efficient and fast execution.
+
+Distributed
+Java is inherently distributed, designed to facilitate network-based application development 
+and interaction, seamlessly integrating with Internet, protocols and remote method invocation.
+ 
+**********************************************************************************************************************************************
+Object Oriented Programming
+
+CLASS:
+Hotel
+
+OBJECTS:
+Name
+
+PROPERTIES:
+Stars
+Rooms
+
+METHODS:
+reserveRoom
+cancel
+ 
+*********************************************************************************************************************************************************************************************************************
+*********************************************************************************************************************************************************************************************************************
 
