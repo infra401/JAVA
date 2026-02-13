@@ -86,10 +86,62 @@ METHODS:
 reserveRoom
 cancel
  
-*********************************************************************************************************************************************************************************************************************
-*********************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************
+********************************************************************************************************************************************************************************************************************
 Installing JDK:
 Search JDK Download
 Make sure to download from the oracle website
 Download the latest version
+
+File Extensions:
+
+.Java 
+- contains Java Source Code
+- High level Human Readable
+- Used for Development
+- File is editable
+
+.Class
+- Contains Java Bytecode
+- For consumption of JVM
+- Used for Execution
+- Not meant to be edited
+
+=========================================================================================================
+JDK vs JVM vs JRE
+........................................
+
+.JDK
+- It is a software development kit requred to develop Java applications.
+- Includes the JRE, an interpreter/loader (Java), a compiler (javac), a document (Javadoc),
+  and other tools needed for Java development.
+- Essentially, JDK is a superset of JRE
+
+.JRE
+- It is a part of the JDK but can be downloaded separately
+- Provides the libraries, the JVM, and other components to run applications.
+- Does not have tools and utilities for developers like compilers or debuggers.
+
+.JVM
+- It is a part of JRE and responsible for executing the bytecode
+- Ensures Java's write-once-run-anywhere capability
+- Not platform-independent: a different JVM is needed for each type of OS
+
+
+_________________________________________________________________________________________________________
+|                              JDK (Java Development Kit)                                               |  
+|                                                                                                       |
+|   _______________________    ________________________________________________________________         |
+|   |                     |    |    JRE (Java Runtime Environment)                            |         | 
+|   |  Java Development   |    |   ____________________      __________________________       |         |
+|   |  Tools. Like javac, |    |   |     JVM          |      |  Set of Java Libraries |       |         |
+|   |  jheap, java etc    |    |   |  (Java Virtual   |      |________________________|       |         |
+|   |                     |    |   |    Machine)      |      ___________________              |         |
+|   |_____________________|    |   |__________________|      |  Other Files    |              |         |
+|                              |                             |_________________|              |         |
+|                              |______________________________________________________________|         |
+|_______________________________________________________________________________________________________|
+
+
+********************************************************************************************************************************************************************************************************************
 
