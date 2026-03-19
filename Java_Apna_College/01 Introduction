@@ -1,0 +1,76 @@
+Installation
+~~~~~~~~~~~~~~
+1. Java Developmnt Kit (JDK)
+2. Code Editor / IDE
+        |-> visual studio code (VS Code)
+        |-> Intellij
+        |-> Eclipse
+
+
+browse:
+  java development kit
+  download it
+
+browse: 
+  visual studio code install pack java
+
+
+________________________________________________________________
+|                                                     JDK      | 
+|    _________________________________                         |
+|    |                         JRE   |                         |
+|    |    ________                   |      +    Development   | 
+|    |    | JVM  |  + Libraries      |              Tools      |   
+|    |    |______|                   |                         |
+|    |_______________________________|                         |
+|                                                              | 
+|______________________________________________________________|
+
+
+source code  ---------->  compiler ------------> Byte Code
+(.java)                           JDK                       (.class)
+
+Function
+.............
+void main() {
+
+}
+
+
+Class
+..............
+class Main {
+  void main() {
+
+  }
+}
+
+code
+~~~~~~~~~~~~
+firstProgram.java:
+class FirstClass {
+    public static void main(String args[]) {
+        System.out.println("Hello World");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
