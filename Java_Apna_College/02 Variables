@@ -51,6 +51,141 @@ public class Main {
 }
 
 .......................................................................................................................................................................................................................
+Qs. Print the Pattern
+*
+* *
+* * *
+* * * *
+
+public class Main {
+    public static void main(String[] args) {
+        // output
+        System.out.println("*");
+        System.out.println("**");
+        System.out.println("***");
+        System.out.println("****");
+    }
+}
+
+.......................................................................................................................................................................................................................
+Variables
+~~~~~~~~~~~~~~~~~
+
+code
+~~~~~~
+public class Main {
+    public static void main(String[] args) {
+        // variables
+        String name = "tony stark";
+        int age = 48;
+        double price = 25.25;
+        int a = 25;
+        int b = 10;
+
+        b = 20;
+        name = "ironman";
+    }
+}
+
+...............................................................................
+Data Types
+.......................
+1. Primitive
+byte
+short
+char
+boolean
+int
+long
+float
+double
+
+2. Non-Primitive
+String
+Array
+Class
+Object
+Interface
+
+....................................................................................................................................................................................................
+code
+~~~~~~~~~~
+public class Main {
+    public static void main(String[] args) {
+        // variables
+        int a = 10;
+        int b = 25;
+        int sum = a + b;
+        // System.out.println(sum);
+        int diff = b - a;
+        // System.out.println(diff);
+        int mul = a * b;
+        System.out.println(mul);
+    }
+}
+
+....................................................................................................................................................................................................
+Inputs
+~~~~~~~~~~~
+
+code
+~~~~~~~~~
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Input
+        Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+        System.out.println(name);
+    }
+}
+
+........................................................................................
+code
+~~~~~~~~~
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Input
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();        // to take input for entire line
+        System.out.println(name);
+    }
+}
+
+.......................................................................................
+code
+~~~~~~~~~~~
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Input
+        Scanner sc = new Scanner(System.in);
+        String name = sc.nextLine();
+        // nextInt()
+        //nextFloat()
+        System.out.println(name);
+    }
+}
+
+....................................................................................................................................................................................................................
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = sc.nextInt();
+        int b = sc.nextInt();
+        int sum = a + b;
+
+        System.out.println(sum);
+    }
+}
+
+
 
 
 
