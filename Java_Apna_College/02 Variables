@@ -188,6 +188,44 @@ public class Main {
 
 
 
+- import java.util.*;
+This line imports java.util package which contains useful classes like Scanner, ArrayList, Date etc. 
+* means import all classes inside this package
+
+- public class Main {
+Defines  a class named Main; in java every program must be inside a class
+public -> accessible from anywhere
+
+- public static void main(String[] args) {
+This is the main method (entry point of program)
+public -> accessible everywhere
+static -> can run without creating object
+void -> no return value
+main() -> JVM starts execution from here
+String[] args -> command-line arguments
+Without this method, program will not run
+
+- Scanner sc = new Scanner(System.in);
+Creates an object of Scanner class
+Scanner -> class name
+sc -> object name
+new Scanner() -> creates object
+System.in -> takes input from keyboard
+Used to read user input
+
+
+- int a = sc.nextInt();
+Declares an integer variable a
+Takes input from user using Scanner
+nextInt():
+Reads an integer from keyboard
+
+
+
+
+
+
+
 
 
 
